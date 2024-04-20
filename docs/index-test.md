@@ -22,6 +22,18 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
+# This page Navigation Structure
+{: .no_toc }
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
 [Link to another page]({{site.baseurl}}/).
 
 There should be whitespace between paragraphs.
