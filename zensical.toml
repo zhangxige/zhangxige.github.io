@@ -13,8 +13,8 @@
 
 [project]
 # ===== 基本信息 [Info] =====
-site_name = "Zensical 中文教程"           # 网站名称
-site_url = "https://wcowin.work/Zensical-Chinese-Tutorial/"  # 网站URL（请修改为你的域名）
+site_name = "Zhangxige's Website"           # 网站名称
+site_url = "https://zhangxige.github.io"  # 网站URL（请修改为你的域名）
 site_description = "最详细、最便捷、最前沿的 Zensical 中文教程"  # 网站描述
 site_author = "zhangxige"                           # 网站作者
 copyright = "Copyright &copy; 2025 Wcowin"      # 左下角的版权声明
@@ -23,8 +23,8 @@ site_dir = "site"                                # 生成的网站目录
 use_directory_urls = true                        # 使用目录形式的URL
 
 # ===== 仓库配置 =====
-repo_url = "https://github.com/Wcowin/Zensical-Chinese-Tutorial"  # 右上角点击跳转的链接
-repo_name = "Zensical-Chinese-Tutorial"                            # 右上角的名字
+repo_url = "https://github.com/zhangxige"  # 右上角点击跳转的链接
+repo_name = "zhangxige's github"                            # 右上角的名字
 edit_uri = "edit/main/docs"                              # 编辑按钮跳转的链接
 
 # ===== 额外的 JavaScript 文件 =====
