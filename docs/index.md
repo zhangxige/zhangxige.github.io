@@ -245,26 +245,8 @@ Zensical-Chinese-Tutorial/
 
 ## 📞 联系方式
 
-- **GitHub**: [Wcowin/Zensical-Chinese-Tutorial](https://github.com/Wcowin/Zensical-Chinese-Tutorial)
-- **Email**: wcowin@qq.com
-- **微信**: 扫描下方二维码
-
-
-<center>
-
-<p>微信</p>  
-
-<a href="https://pic3.zhimg.com/80/v2-5ef3dde831c9d0a41fe35fabb0cb8784_1440w.webp" target="_blank">
-<img src="https://pic3.zhimg.com/80/v2-5ef3dde831c9d0a41fe35fabb0cb8784_1440w.webp" style="width: 450px; height: auto;">
-</a>
-
-<p>Telegram</p>  
-
-<a href="https://t.me/Wcowin" target="_blank">
-<img src="https://pica.zhimg.com/80/v2-d5876bc0c8c756ecbba8ff410ed29c14_1440w.webp" style="width: 450px; height: auto;">
-</a>
-
-</center>
+- **GitHub**: [zhangxige](https://github.com/zhangxige)
+- **Email**: daxuekanshijie@sina.cn
 
 ---
 

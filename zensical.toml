@@ -46,40 +46,42 @@ extra_css = [
 
 # ===== 导航配置 [Navigation] =====
 nav = [
-    { "主页" = "index.md" },
-    { "快速开始" = [
-        { "5 分钟快速开始" = "getting-started/quick-start.md" },
-        { "从 MkDocs 迁移" = "getting-started/migration.md" },
-    ] },
-    { "核心教程" = [
-        { "zensical.toml 配置详解" = "tutorials/configuration.md" },
-        { "主题定制指南" = "tutorials/theme-customization.md" },
-        { "Markdown 扩展使用" = "tutorials/markdown-extensions.md" },
-        { "Zensical 博客系统完全指南" = "tutorials/blog-tutorial.md" },
-    ] },
-    { "插件系统" = [
-        { "博客插件详解" = "blog/plugins/blog.md" },
-        { "搜索插件配置" = "blog/plugins/search.md" },
-        { "标签插件使用" = "blog/plugins/tags.md" },
-        { "RSS 插件配置" = "blog/plugins/rss.md" },
-    ] },
-    { "部署指南" = [
-        { "GitHub Pages 部署（推荐）" = "blog/deployment/github-pages.md" },
-        { "Netlify 部署" = "blog/deployment/netlify.md" },
-        { "GitLab Pages 部署" = "blog/deployment/gitlab-pages.md" },
-        { "自托管部署" = "blog/deployment/self-hosted.md" },
-    ] },
-    { "高级主题" = [
-        { "性能优化" = "blog/advanced/performance.md" },
-        { "SEO 优化" = "blog/advanced/seo.md" },
-        { "多语言支持" = "blog/advanced/i18n.md" },
-        { "自定义 404 页面" = "blog/advanced/custom-404.md" },
-        { "自定义字体" = "blog/advanced/custom-fonts.md" },
-        { "添加评论系统" = "blog/advanced/comment-system.md" },
-    ] },
-    { "常见问题" = "faq.md" },
-    { "案例展示" = "showcase.md" },
-    { "关于" = "about.md" },
+    {"zensical中文教程" = [
+        { "主页" = "index.md" },
+        { "快速开始" = [
+            { "5 分钟快速开始" = "getting-started/quick-start.md" },
+            { "从 MkDocs 迁移" = "getting-started/migration.md" },
+        ] },
+        { "核心教程" = [
+            { "zensical.toml 配置详解" = "tutorials/configuration.md" },
+            { "主题定制指南" = "tutorials/theme-customization.md" },
+            { "Markdown 扩展使用" = "tutorials/markdown-extensions.md" },
+            { "Zensical 博客系统完全指南" = "tutorials/blog-tutorial.md" },
+        ] },
+        { "插件系统" = [
+            { "博客插件详解" = "blog/plugins/blog.md" },
+            { "搜索插件配置" = "blog/plugins/search.md" },
+            { "标签插件使用" = "blog/plugins/tags.md" },
+            { "RSS 插件配置" = "blog/plugins/rss.md" },
+        ] },
+        { "部署指南" = [
+            { "GitHub Pages 部署（推荐）" = "blog/deployment/github-pages.md" },
+            { "Netlify 部署" = "blog/deployment/netlify.md" },
+            { "GitLab Pages 部署" = "blog/deployment/gitlab-pages.md" },
+            { "自托管部署" = "blog/deployment/self-hosted.md" },
+        ] },
+        { "高级主题" = [
+            { "性能优化" = "blog/advanced/performance.md" },
+            { "SEO 优化" = "blog/advanced/seo.md" },
+            { "多语言支持" = "blog/advanced/i18n.md" },
+            { "自定义 404 页面" = "blog/advanced/custom-404.md" },
+            { "自定义字体" = "blog/advanced/custom-fonts.md" },
+            { "添加评论系统" = "blog/advanced/comment-system.md" },
+        ] },
+        { "常见问题" = "faq.md" },
+        { "案例展示" = "showcase.md" },
+        { "关于" = "about.md" },
+    ]},
     { "个人博客" = [
         {"Python_Markdown" = "blog/posts/Python_Markdown.md" },
         {"Image_Classify" = "blog/posts/Image_Classify.md" },
@@ -188,7 +190,7 @@ deprecated = "已弃用"
 # 显示在页脚的社交媒体图标
 [[project.extra.social]]
 icon = "fontawesome/brands/github"
-link = "https://github.com/Wcowin/Zensical-Chinese-Tutorial"
+link = "https://github.com/zhangxige"
 name = "GitHub"
 
 [[project.extra.social]]
@@ -198,7 +200,7 @@ name = "Telegram"
 
 [[project.extra.social]]
 icon = "fontawesome/regular/envelope"
-link = "mailto:wcowin@qq.com"
+link = "daxuekanshijie@sina.cn"
 name = "Email"
 
 # ===== Google Analytics =====
