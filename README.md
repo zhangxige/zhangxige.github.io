@@ -411,22 +411,6 @@ link = "javascript:translateTo('english');"
 lang = "en"
 ```
 
-# 联系方式
-
-<center>
-
-**微信**  
-<a href="https://pic3.zhimg.com/80/v2-5ef3dde831c9d0a41fe35fabb0cb8784_1440w.webp" target="_blank">
-<img src="https://pic3.zhimg.com/80/v2-5ef3dde831c9d0a41fe35fabb0cb8784_1440w.webp" style="width: 450px; height: auto;">
-</a>
-
-**Telegram**
-<a href="https://t.me/Wcowin" target="_blank">
-<img src="https://pica.zhimg.com/80/v2-d5876bc0c8c756ecbba8ff410ed29c14_1440w.webp" style="width: 450px; height: auto;">
-</a>
-
-</center>
-
 ## 案例成果
 
 以下是一些使用 Zensical 构建的优秀网站：
