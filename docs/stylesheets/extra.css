@@ -19,6 +19,12 @@
     min-height: 1rem;
 }
 
+.md-footer {
+    background-color: #19b8b3;
+    color: #ffffff;
+    min-height: 1rem;
+}
+
 /* 响应式设计 */
 /* @media (max-width: 768px) {
     .md-header {
