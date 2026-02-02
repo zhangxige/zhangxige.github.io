@@ -20,10 +20,15 @@
 }
 
 .md-footer {
-    background-color: #19b8b3;
-    color: #ffffff;
+    background-color: #e8eaea;
+    color: #000000;
     min-height: 1rem;
 }
+
+/* .github-corner:hover .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+} */
+
 
 /* 响应式设计 */
 /* @media (max-width: 768px) {
