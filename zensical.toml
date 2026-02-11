@@ -89,6 +89,7 @@ nav = [
         {"Image_Segment" = "blog/posts/Image_Segment.md"},
         {"Image_Match" = "blog/posts/Image_Match.md"},
         {"Rust" = "blog/posts/Rust.md"},
+        {"Color" = "blog/posts/Color.md"},
     ] },
 ]
 
