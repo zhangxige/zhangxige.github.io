@@ -90,6 +90,7 @@ nav = [
         {"Image_Match" = "blog/posts/Image_Match.md"},
         {"Rust" = "blog/posts/Rust.md"},
         {"Color" = "blog/posts/Color.md"},
+        {"Image_Clarity" = "blog/posts/Image_Clarity.md"},
     ] },
 ]
 
