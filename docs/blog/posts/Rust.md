@@ -1,6 +1,6 @@
 ---
 icon: lucide/diameter
-title: Rust
+title: Rust 使用
 date: 2026-01-09
 authors:
   - name: zx

@@ -91,6 +91,7 @@ nav = [
         {"Rust" = "blog/posts/Rust.md"},
         {"Color" = "blog/posts/Color.md"},
         {"Image_Clarity" = "blog/posts/Image_Clarity.md"},
+        {"Rust适合的项目" = "blog/posts/Rust_useful.md"}
     ] },
 ]
 

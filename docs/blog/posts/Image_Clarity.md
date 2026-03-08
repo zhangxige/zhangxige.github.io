@@ -1,7 +1,7 @@
 ---
 icon: lucide/palette
-title: Image Color
-date: 2026-02-11
+title: Image Clarity
+date: 2026-03-01
 authors:
   - name: zhangxige
     email: daxuekanshijie@sina.cn
