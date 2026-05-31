@@ -1,3 +1,14 @@
+---
+icon: lucide/gamepad-directional
+title: OpenSpec_OpenCode_VibeCoding
+date: 2026-05-31
+authors:
+  - name: zx
+    email: daxuekanshijie@sina.cn
+categories:
+  - Rust
+---
+
 # 用 OpenSpec \+ OpenCode 实现高效 Vibe Coding：从理念到落地
 
 这里提供**两种最简单的方法**，把上面的内容保存为 `\.md` 文件，Windows WSL / 纯 Windows 都能用，一步步照着操作即可。
@@ -280,8 +291,3 @@ Vibe Coding 不是 “不专业”，而是**AI 时代的新专业**—— 把�
 
 现在，无需纠结语法、无需搭建复杂环境，只需**说清楚你的想法**，剩下的交给 AI—— 这就是 Vibe Coding 的魅力，也是 OpenSpec\+OpenCode 的价值。
 
-```Plain Text
-
-```
-
-> （注：文档部分内容可能由 AI 生成）
