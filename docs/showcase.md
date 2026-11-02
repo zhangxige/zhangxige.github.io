@@ -2,44 +2,38 @@
 title: 案例展示
 date: 2025-01-22
 authors:
-  - name: Wcowin
-    email: wcowin@qq.com
+  - name: zhangxige
+    email: daxuekanshijie@sina.cn
 categories:
   - 案例
 ---
 
 # 案例展示
 
-> 使用 Zensical 构建的精彩网站案例
+> 使用 Zensical 构建的网站案例
 
 ## 使用 Zensical 的网站
 
-以下是一些使用 Zensical 构建的优秀网站案例：
-
-- [Wcowin 的博客](https://wcowin.work) —— 作者的个人博客，使用 Zensical 构建
+- [Zhangxige's Website](https://zhangxige.github.io) —— 本站，个人技术博客与 Zensical 中文教程
+- [Wcowin 的博客](https://wcowin.work) —— 上游中文教程模板作者的个人博客
 - [Zensical 官方文档](https://zensical.org/docs/) —— Zensical 官方文档网站
-- 更多案例敬请期待……
 
 !!! tip "提交你的案例"
-    如果你使用 Zensical 构建了网站，欢迎通过以下方式提交：
-    
-    - 在 GitHub 上创建 [Issue](https://github.com/Wcowin/Zensical-Chinese-Tutorial/issues)
-    - 发送邮件至 wcowin@qq.com
-    - 通过 Telegram 联系 [@Wcowin](https://t.me/Wcowin)
+    如果你使用 Zensical 构建了网站，欢迎在
+    [GitHub Issues](https://github.com/zhangxige/zhangxige.github.io/issues)
+    中提交案例。
 
 ## 案例特点
 
-这些案例展示了 Zensical 的强大功能：
+这些案例展示了 Zensical 的常用能力：
 
 - ✅ **即时导航** - 流畅的页面切换体验
-- ✅ **博客系统** - 完整的博客功能
-- ✅ **现代设计** - 美观的界面设计
-- ✅ **高性能** - 快速的加载速度
-- ✅ **易于定制** - 灵活的配置选项
+- ✅ **博客系统** - 文章列表、归档、标签与 RSS
+- ✅ **现代设计** - 响应式布局与深浅色主题
+- ✅ **高性能** - 静态生成，加载迅速
+- ✅ **易于定制** - TOML 配置与自定义样式
 
 ## 开始构建你的网站
-
-参考以下教程开始构建你的 Zensical 网站：
 
 1. [5 分钟快速开始](getting-started/quick-start.md)
 2. [Zensical 博客系统完全指南](tutorials/blog-tutorial.md)

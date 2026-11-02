@@ -1,17 +1,19 @@
 ---
 icon: lucide/info
-title: Image Classify
+title: Python 虚拟环境管理
 date: 2025-12-22
 authors:
-  - name: zhangxige
-    email: daxuekanshijie@sina.cn
+  - zhangxige
 categories:
-  - python
+  - Python
+tags:
+  - Python
+  - 虚拟环境
 ---
 
-# Virtural environment
+# Python 虚拟环境管理
 
-这是我的第一篇 Zensical 博客文章！
+本文记录 Python 开发环境的常用管理方式。
 
 ## Manage environment
 

@@ -1,5 +1,5 @@
 ---
-title: Zensical 中文教程
+title: Zhangxige 的技术博客
 hide:
 #   - navigation
 #   - toc 
@@ -7,7 +7,7 @@ hide:
 comments: false
 ---
 
-<center><font class="custom-font ml3">最好的 Zensical 中文教程</font></center>
+<center><font class="custom-font ml3">技术博客 · 图像处理 · Rust · AI 编程</font></center>
 
 <style>
 .custom-font {
@@ -51,7 +51,7 @@ comments: false
     }
 </style>
 
-> 不同于市面上过时的 [MkDocs 教程](https://wcowin.work/Mkdocs-Wcowin/)，本站提供了 **最详细、最便捷、最前沿** 的 Zensical 中文教程，与 [官方发布](https://zensical.org/about/roadmap/) 的版本同步。包含了 Zensical 的安装、配置、主题美化、博客系统等内容。无论你是初学者还是有经验的用户，都能在这里找到你需要的帮助。𝓳𝓾𝓼𝓽 𝓮𝓷𝓳𝓸𝔂 𝓲𝓽～
+> 这里记录我在图像处理、Rust、Python 和 AI 编程工具方面的学习与实践，同时整理了一份持续更新的 **Zensical 中文教程**。无论你是想阅读技术笔记，还是第一次接触 Zensical，都可以从这里开始。𝓳𝓾𝓼𝓽 𝓮𝓷𝓳𝓸𝔂 𝓲𝓽～
 
 ---
 
@@ -157,7 +157,11 @@ features = [
 
 ### 博客系统
 
-很快到来
+博客文章按日期归档，支持分类、标签和 RSS 订阅：
+
+- [浏览全部文章](blog/index.md)
+- [OpenSpec + OpenCode：高效 Vibe Coding](blog/posts/OpenSpec_OpenCode_VibeCoding.md)
+- [图像清晰度解析](blog/posts/Image_Clarity.md)
 
 ### Modern 主题
 
@@ -193,12 +197,14 @@ zensical serve
 ## 📖 文档结构
 
 ```
-Zensical-Chinese-Tutorial/
+zhangxige.github.io/
 ├── docs/
 │   ├── index.md                    # 本页面
 │   ├── about.md                    # 关于页面
 │   ├── faq.md                      # 常见问题
-│   ├── showcase.md                  # 案例展示
+│   ├── showcase.md                 # 案例展示
+│   ├── tags.md                     # 标签索引
+│   ├── assets/                     # Logo 等静态资源
 │   ├── getting-started/            # 快速开始
 │   │   ├── quick-start.md          # 5 分钟快速开始
 │   │   └── migration.md            # 从 MkDocs 迁移
@@ -207,12 +213,18 @@ Zensical-Chinese-Tutorial/
 │   │   ├── configuration.md        # 配置详解
 │   │   ├── theme-customization.md  # 主题定制
 │   │   └── markdown-extensions.md  # Markdown 扩展
-│   ├── blog/                       # 博客相关
+│   ├── blog/
+│   │   ├── index.md                # 博客首页
+│   │   ├── .authors.yml            # 作者信息
+│   │   ├── posts/                  # 博客文章
 │   │   ├── plugins/                # 插件文档
 │   │   ├── deployment/             # 部署指南
 │   │   └── advanced/              # 高级主题
+│   ├── javascripts/                # 自定义脚本
+│   └── stylesheets/                # 自定义样式
 ├── zensical.toml                   # 配置文件
-└── README.md                       # 项目说明
+├── requirements.txt                # Python 依赖
+└── .github/workflows/docs.yml      # GitHub Pages 部署
 ```
 
 ## 💡 实用技巧
@@ -230,14 +242,15 @@ Zensical-Chinese-Tutorial/
 
 ## 🌟 案例展示
 
-- [Wcowin 的博客](https://wcowin.work) - 使用 Zensical 构建
+- [Zhangxige's Website](https://zhangxige.github.io) - 本站，使用 Zensical 构建
+- [Wcowin 的博客](https://wcowin.work) - 上游中文教程模板作者的个人博客
 - [更多案例](showcase.md) - 查看更多精彩案例
 
 ## 🤝 参与贡献
 
-欢迎参与 Zensical-Chinese-Tutorial 的完善：
+欢迎参与本站的完善：
 
-1. Fork 本仓库
+1. Fork [zhangxige/zhangxige.github.io](https://github.com/zhangxige/zhangxige.github.io)
 2. 创建你的特性分支
 3. 提交你的修改
 4. 推送到分支
@@ -246,7 +259,7 @@ Zensical-Chinese-Tutorial/
 ## 📞 联系方式
 
 - **GitHub**: [zhangxige](https://github.com/zhangxige)
-- **Email**: daxuekanshijie@sina.cn
+- **Email**: [daxuekanshijie@sina.cn](mailto:daxuekanshijie@sina.cn)
 
 ---
 

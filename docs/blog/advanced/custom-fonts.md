@@ -2,8 +2,8 @@
 title: 自定义网站字体
 date: 2025-01-22
 authors:
-  - name: Wcowin
-    email: wcowin@qq.com
+  - name: zhangxige
+    email: daxuekanshijie@sina.cn
 categories:
   - 高级主题
 ---

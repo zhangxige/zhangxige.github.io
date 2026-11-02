@@ -2,8 +2,8 @@
 title: 主题定制指南
 date: 2025-01-22
 authors:
-  - name: Wcowin
-    email: wcowin@qq.com
+  - name: zhangxige
+    email: daxuekanshijie@sina.cn
 categories:
   - 主题定制
 ---

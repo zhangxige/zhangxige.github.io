@@ -1,12 +1,15 @@
 ---
 icon: lucide/gamepad-directional
-title: OpenSpec_OpenCode_VibeCoding
+title: OpenSpec + OpenCode Vibe Coding
 date: 2026-05-31
 authors:
-  - name: zx
-    email: daxuekanshijie@sina.cn
+  - zhangxige
 categories:
-  - Rust
+  - AI 编程
+tags:
+  - OpenSpec
+  - OpenCode
+  - Vibe Coding
 ---
 
 # 用 OpenSpec \+ OpenCode 实现高效 Vibe Coding：从理念到落地

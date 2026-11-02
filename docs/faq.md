@@ -32,7 +32,7 @@ pip install zensical
 
 ### Zensical 需要什么 Python 版本？
 
-Zensical 需要 Python 3.8 或更高版本。推荐使用 Python 3.9+。
+Zensical 需要 Python 3.11 或更高版本。推荐使用 Python 3.12+。
 
 ## 配置相关
 
@@ -117,21 +117,28 @@ post_readtime_words_per_minute = 265  # 中文适配
 
 ### 支持数学公式吗？
 
-支持！启用 MathJax：
+支持！本站使用 KaTeX 渲染公式。首先启用 `arithmatex` 扩展：
 
 ```toml
-[project.markdown_extensions."pymdownx.arithmatex"]
+[project.markdown_extensions.pymdownx.arithmatex]
 generic = true
 ```
 
-然后在 `extra_javascript` 中添加 MathJax：
+然后在 `extra_javascript` 和 `extra_css` 中添加 KaTeX 资源：
 
 ```toml
 extra_javascript = [
-    "javascripts/mathjax.js",
-    "https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"
+    "https://unpkg.com/katex@0/dist/katex.min.js",
+    "https://unpkg.com/katex@0/dist/contrib/auto-render.min.js",
+    "javascripts/katex.js"
+]
+
+extra_css = [
+    "https://unpkg.com/katex@0/dist/katex.min.css"
 ]
 ```
+
+`docs/javascripts/katex.js` 负责在页面切换后自动渲染公式。也可以改用 MathJax，只需将脚本替换为 MathJax 的 CDN 地址并编写对应的初始化脚本。
 
 ## 部署相关
 
@@ -216,9 +223,9 @@ Zensical 正在开发模块系统来替代 hooks。
 ### 在哪里可以获取帮助？
 
 - **官方文档**：[https://zensical.org/docs/](https://zensical.org/docs/)
-- **本教程**：[Zensical 中文教程](https://wcowin.work/Zensical-Chinese-Tutorial/)
-- **社区支持**：[Zensical-Wcowin 社区](https://support.qq.com/products/646913/)
-- **GitHub Issues**：[提交问题](https://github.com/Wcowin/Zensical-Chinese-Tutorial/issues)
+- **本教程**：[Zensical 中文教程](https://zhangxige.github.io/)
+- **社区支持**：[GitHub Issues](https://github.com/zhangxige/zhangxige.github.io/issues)
+- **GitHub Issues**：[提交问题](https://github.com/zhangxige/zhangxige.github.io/issues)
 
 ### 如何贡献到本教程？
 

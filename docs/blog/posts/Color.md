@@ -1,12 +1,14 @@
 ---
 icon: lucide/palette
-title: Image Color
+title: 图像色彩：从 SDR 到 HDR
 date: 2026-02-11
 authors:
-  - name: zhangxige
-    email: daxuekanshijie@sina.cn
+  - zhangxige
 categories:
-  - color
+  - 图像处理
+tags:
+  - 图像处理
+  - 色彩
 ---
 
 # 颜色色域全解析：从 SDR 到 HDR 的色彩边界

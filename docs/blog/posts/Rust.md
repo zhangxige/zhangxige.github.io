@@ -3,10 +3,12 @@ icon: lucide/diameter
 title: Rust 使用
 date: 2026-01-09
 authors:
-  - name: zx
-    email: daxuekanshijie@sina.cn
+  - zhangxige
 categories:
   - Rust
+tags:
+  - Rust
+  - 学习笔记
 ---
 
 <!--

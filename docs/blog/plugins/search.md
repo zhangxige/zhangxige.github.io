@@ -2,8 +2,8 @@
 title: 搜索插件配置
 date: 2025-01-22
 authors:
-  - name: Wcowin
-    email: wcowin@qq.com
+  - name: zhangxige
+    email: daxuekanshijie@sina.cn
 categories:
   - 插件系统
 ---

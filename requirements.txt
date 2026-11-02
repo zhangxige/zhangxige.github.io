@@ -1,3 +1,5 @@
-zensical>=0.1.0
-pygments>=2.15.0
-pymdown-extensions>=10.0
+# Zensical 需要 Python 3.11+
+# 当前 PyPI 最新稳定版本为 0.0.74
+zensical==0.0.74
+pygments>=2.20
+pymdown-extensions>=11.0

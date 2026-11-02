@@ -2,8 +2,8 @@
 title: Zensical 博客系统完全指南
 date: 2025-01-22
 authors:
-  - name: Wcowin
-    email: wcowin@qq.com
+  - name: zhangxige
+    email: daxuekanshijie@sina.cn
 categories:
   - Zensical
   - 教程
@@ -87,8 +87,7 @@ authors_file = "blog/.authors.yml"
 title: 我的第一篇博客文章
 date: 2025-01-22
 authors:
-  - name: 你的名字
-    email: your@email.com
+  - zhangxige
 categories:
   - 技术
   - Python
@@ -105,7 +104,7 @@ categories:
 |------|------|------|
 | `title` | 字符串 | 文章标题（必需） |
 | `date` | 日期 | 发布日期，格式：YYYY-MM-DD（必需） |
-| `authors` | 数组 | 作者信息列表 |
+| `authors` | 数组 | 作者 ID 列表，需在 `docs/blog/.authors.yml` 中定义 |
 | `categories` | 数组 | 文章分类 |
 | `tags` | 数组 | 文章标签 |
 | `draft` | 布尔值 | 是否为草稿（默认：false） |
@@ -118,10 +117,8 @@ categories:
 title: 深入理解 Python 装饰器
 date: 2025-01-22
 authors:
-  - name: Wcowin
-    email: wcowin@qq.com
-  - name: 张三
-    email: zhangsan@example.com
+  - zhangxige
+  - zhangsan
 categories:
   - 技术
   - Python
@@ -208,62 +205,37 @@ date: 2025-12-31  # 未来日期，自动标记为草稿
 
 ## 作者信息
 
-### 在文章 Front Matter 中定义
+### 作者 ID 与 .authors.yml
 
-#### 单个作者
-
-```markdown
----
-title: 文章标题
-authors:
-  - name: 张三
-    email: zhangsan@example.com
----
-```
-
-#### 多个作者
-
-```markdown
----
-title: 文章标题
-authors:
-  - name: 张三
-    email: zhangsan@example.com
-  - name: 李四
-    email: lisi@example.com
----
-```
-
-### 使用作者信息文件（推荐）
-
-如果你有多篇文章使用相同的作者，可以创建 `docs/blog/.authors.yml` 文件：
+Zensical 的博客 `authors` 字段必须是**作者 ID 字符串**，不能直接写 `name` / `email` 对象。先在 `docs/blog/.authors.yml` 中定义作者：
 
 ```yaml
 authors:
-  Wcowin:
-    name: Wang Kewen
-    description: Free and casual
-    avatar: https://example.com/avatar.png
-  
-  张三:
+  zhangxige:
+    name: zhangxige
+    description: 图像处理 / Rust / AI 编程
+    avatar: https://github.com/zhangxige.png
+
+  zhangsan:
     name: 张三
     description: 技术博主
     avatar: https://example.com/zhangsan.png
 ```
 
-然后在文章中使用作者 ID：
+然后在文章 front matter 中引用作者 ID：
 
 ```markdown
 ---
 title: 文章标题
 authors:
-  - Wcowin  # 引用 .authors.yml 中的作者 ID
-  - 张三
+  - zhangxige
+  - zhangsan
 ---
 ```
 
 !!! tip "作者信息文件"
     使用 `.authors.yml` 可以：
+
     - 统一管理作者信息
     - 避免重复定义
     - 方便更新作者信息
@@ -398,8 +370,7 @@ date: 2025-01-22
 title: 优化的文章标题
 date: 2025-01-22
 authors:
-  - name: 你的名字
-    email: your@email.com
+  - zhangxige
 categories:
   - 主分类
 tags:

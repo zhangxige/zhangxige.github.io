@@ -2,8 +2,8 @@
 title: 博客插件详解
 date: 2025-01-22
 authors:
-  - name: Wcowin
-    email: wcowin@qq.com
+  - name: zhangxige
+    email: daxuekanshijie@sina.cn
 categories:
   - 插件系统
 ---
@@ -47,8 +47,7 @@ pagination_url_format = "page/{page}"         # 分页 URL 格式
 title: 我的第一篇博客
 date: 2025-01-22
 authors:
-  - name: 你的名字
-    email: your@email.com
+  - zhangxige
 categories:
   - 技术
   - Python

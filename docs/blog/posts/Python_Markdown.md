@@ -1,19 +1,18 @@
 ---
 icon: lucide/info
-title: How to write a markdown for python code
+title: Markdown 语法示例
 date: 2025-12-22
 authors:
-  - name: zhangxige
-    email: daxuekanshijie@sina.cn
+  - zhangxige
 categories:
-  - python
+  - Python
 tags:
   - HTML5
   - JavaScript
   - CSS
 ---
 
-# Virtural environment
+# Markdown 语法示例
 
 这是我的第一篇 Zensical 博客文章！
 

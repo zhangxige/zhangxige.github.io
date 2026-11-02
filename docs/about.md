@@ -3,23 +3,32 @@ title: 关于
 date: 2025-01-22
 ---
 
-# 关于 Zensical-Wcowin
+# 关于本站
 
-## 项目简介
+这里是 **zhangxige** 的个人技术博客，同时也是我整理的 Zensical 中文教程。
 
-Zensical-Wcowin 是最详细、最便捷、最前沿的 Zensical 中文教程。
+## 关于我
 
-## 作者
+- GitHub: [@zhangxige](https://github.com/zhangxige)
+- Email: [daxuekanshijie@sina.cn](mailto:daxuekanshijie@sina.cn)
 
-**Wcowin**
+## 内容方向
 
-- GitHub: [@Wcowin](https://github.com/Wcowin)
-- Email: wcowin@qq.com
-- Telegram: [@Wcowin](https://t.me/Wcowin)
+- 图像处理：分类、检测、分割、匹配、清晰度与色彩
+- Rust 学习记录与项目实践
+- Python 开发环境与工具链
+- AI 编程工具，例如 OpenSpec、OpenCode 与 Vibe Coding
 
-## 贡献
+## 技术栈
 
-欢迎参与项目完善！
+本站使用 [Zensical](https://zensical.org/) 构建，部署在 GitHub Pages 上，源码托管于
+[zhangxige/zhangxige.github.io](https://github.com/zhangxige/zhangxige.github.io)。
+
+## 致谢
+
+本站的教程结构与部分文档基于
+[Wcowin/Zensical-Chinese-Tutorial](https://github.com/Wcowin/Zensical-Chinese-Tutorial)
+整理和二次开发，感谢原作者的开源工作。
 
 ## License
 

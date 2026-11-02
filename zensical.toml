@@ -1,6 +1,6 @@
 # ==========================================
-# Zensical-Wcowin 配置文件
-# 最好的 Zensical 中文教程
+# Zhangxige's Website 配置文件
+# Zensical 中文教程 + 个人技术博客
 # ==========================================
 #
 # ⚠️ 重要：配置顺序规则
@@ -8,30 +8,28 @@
 # 2. 然后配置所有直接属于 [project] 的键值对
 # 3. 最后才声明子表（[project.theme], [project.extra] 等）
 # 不能在声明子表后再回到父表添加键！
-# 详细说明：https://wcowin.work/Zensical-Chinese-Tutorial/configuration/#重要配置顺序规则
+# 详细说明：https://zhangxige.github.io/tutorials/configuration/#config-order
 # ==========================================
 
 [project]
 # ===== 基本信息 [Info] =====
 site_name = "Zhangxige's Website"                # 网站名称
 site_url = "https://zhangxige.github.io"         # 网站URL（请修改为你的域名）
-site_description = "最详细、最便捷、最前沿的 Zensical 中文教程"  # 网站描述
+site_description = "zhangxige 的技术博客与 Zensical 中文教程"  # 网站描述
 site_author = "zhangxige"                        # 网站作者
-copyright = "Copyright &copy; 2025 zhangxige"    # 左下角的版权声明
+copyright = "Copyright &copy; 2026 zhangxige"    # 左下角的版权声明
 docs_dir = "docs"                                # 文档目录
 site_dir = "site"                                # 生成的网站目录
 use_directory_urls = true                        # 使用目录形式的URL
 
 # ===== 仓库配置 =====
-repo_url = "https://github.com/zhangxige"  # 右上角点击跳转的链接
-repo_name = "zhangxige's github"                            # 右上角的名字
-edit_uri = "edit/main/docs"                              # 编辑按钮跳转的链接
+repo_url = "https://github.com/zhangxige/zhangxige.github.io"  # 右上角点击跳转的链接
+repo_name = "zhangxige/zhangxige.github.io"                     # 右上角的名字
+edit_uri = "edit/main/docs/"                                    # 编辑按钮跳转的链接
 
 # ===== 额外的 JavaScript 文件 =====
 extra_javascript = [
     "javascripts/extra.js",                                   # 额外功能脚本
-    # "javascripts/mathjax.js",                                 # MathJax 配置
-    # "https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"       # MathJax CDN
     "https://unpkg.com/katex@0/dist/katex.min.js",            # 1. 先加载 KaTeX 核心库
     "https://unpkg.com/katex@0/dist/contrib/auto-render.min.js",  # 2. 再加载自动渲染插件
     "javascripts/katex.js"                                     # 3. 最后加载配置文件
@@ -83,16 +81,8 @@ nav = [
         { "关于" = "about.md" },
     ]},
     { "个人博客" = [
-        {"Python_Markdown" = "blog/posts/Python_Markdown.md" },
-        {"Image_Classify" = "blog/posts/Image_Classify.md" },
-        {"Image_Detection" = "blog/posts/Image_Detection.md"},
-        {"Image_Segment" = "blog/posts/Image_Segment.md"},
-        {"Image_Match" = "blog/posts/Image_Match.md"},
-        {"Rust" = "blog/posts/Rust.md"},
-        {"Color" = "blog/posts/Color.md"},
-        {"Image_Clarity" = "blog/posts/Image_Clarity.md"},
-        {"Rust适合的项目" = "blog/posts/Rust_useful.md"},
-        {"OpenSpec_OpenCode"="blog/posts/OpenSpec_OpenCode_VibeCoding.md"}
+        { "博客首页" = "blog/index.md" },
+        { "标签索引" = "tags.md" }
     ] },
 ]
 
@@ -102,8 +92,8 @@ nav = [
 [project.theme]
 variant = "modern"                                      # Zensical 特有：使用 modern 主题变体（或 "classic"）
 # custom_dir = "docs/overrides"                         # 自定义主题目录（相对于配置文件）
-logo = "https://zensical.org/assets/zensical.svg"       # 网站 Logo
-favicon = "https://zensical.org/assets/zensical.svg"    # 网站图标
+logo = "assets/logo.svg"                                # 网站 Logo
+favicon = "assets/logo.svg"                             # 网站图标
 language = "zh"                                         # 网站语言：中文
 font.text = "Inter"
 font.code = "JetBrains Mono"
@@ -202,13 +192,8 @@ link = "https://github.com/zhangxige"
 name = "GitHub"
 
 [[project.extra.social]]
-icon = "fontawesome/brands/telegram"
-link = "https://t.me/Wcowin"
-name = "Telegram"
-
-[[project.extra.social]]
 icon = "fontawesome/regular/envelope"
-link = "daxuekanshijie@sina.cn"
+link = "mailto:daxuekanshijie@sina.cn"
 name = "Email"
 
 # ===== Google Analytics =====
@@ -245,7 +230,7 @@ separator = '[\s\u200b\-]'
 # ===== 博客插件 =====
 [project.plugins.blog]
 post_date_format = "full"                    # 时间格式：完整日期
-draft = true                                  # 启用草稿功能
+draft = false                                 # 正式构建不包含草稿；预览草稿时临时改为 true
 draft_if_future_date = true                   # 自动将具有未来日期的帖子标记为草稿
 post_readtime = true                          # 显示阅读时间
 post_readtime_words_per_minute = 265          # 每分钟阅读字数（中文适配）
@@ -254,6 +239,9 @@ pagination_per_page = 10                      # 每页显示文章数
 pagination_url_format = "page/{page}"         # 分页URL格式
 
 # ===== 标签插件 =====
+[project.plugins.tags]
+tags_file = "tags.md"
+
 [project.theme.icon.tag]
 default = "lucide/hash"
 html = "fontawesome/brands/html5"
@@ -285,16 +273,16 @@ CSS = "cs"
 # ===== RSS 订阅插件 =====
 [project.plugins.rss]
 enabled = true                                                                    # 启用 RSS 订阅
-match_path = "blog/.*"                                                            # 包含的路径：博客文章
-use_git = false                                                                   # 禁用Git日志读取，避免警告
+match_path = "blog/posts/.*"                                                      # 只收录博客文章
+use_git = false                                                                   # 禁用 Git 日志读取，避免警告
 categories = ["tags", "categories"]                                               # 分类标签
 comments_path = "#__comments"                                                     # 评论区锚点
-image = "https://zensical.org/assets/zensical.svg"                                # RSS 订阅图片
+image = "https://zhangxige.github.io/assets/logo.svg"                             # RSS 订阅图片
 feed_ttl = 1440                                                                   # 订阅更新时间（分钟），24小时
 length = 20                                                                       # 最新文章数量
 pretty_print = true                                                               # 格式化输出
-feed_description = "Zensical 中文教程 - 最详细、最便捷、最前沿的 Zensical 中文教程"  # RSS 描述
-feed_title = "Zensical-Wcowin RSS Feed"                                           # RSS 标题
+feed_description = "zhangxige 的技术博客与 Zensical 中文教程"                      # RSS 描述
+feed_title = "Zhangxige's Blog RSS Feed"                                           # RSS 标题
 
 [project.plugins.rss.date_from_meta]
 as_creation = "date"           # 创建日期来源

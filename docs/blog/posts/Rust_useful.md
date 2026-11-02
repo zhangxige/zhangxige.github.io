@@ -3,10 +3,12 @@ icon: lucide/diameter
 title: Rust 适合的项目
 date: 2026-03-08
 authors:
-  - name: zx
-    email: daxuekanshijie@sina.cn
+  - zhangxige
 categories:
   - Rust
+tags:
+  - Rust
+  - 项目实践
 ---
 
 <!--

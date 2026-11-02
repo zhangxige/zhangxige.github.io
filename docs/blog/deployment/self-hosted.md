@@ -2,8 +2,8 @@
 title: 自托管部署
 date: 2025-01-22
 authors:
-  - name: Wcowin
-    email: wcowin@qq.com
+  - name: zhangxige
+    email: daxuekanshijie@sina.cn
 categories:
   - 部署指南
 ---

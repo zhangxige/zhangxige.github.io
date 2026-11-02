@@ -1,12 +1,14 @@
 ---
 icon: lucide/palette
-title: Image Clarity
+title: 一文读懂图像清晰度
 date: 2026-03-01
 authors:
-  - name: zhangxige
-    email: daxuekanshijie@sina.cn
+  - zhangxige
 categories:
-  - color
+  - 图像处理
+tags:
+  - 图像处理
+  - 清晰度
 ---
 
 # 一文读懂图像清晰度：定义、影响因素与提升技巧

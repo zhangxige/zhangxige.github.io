@@ -30,7 +30,7 @@ Zensical 项目通过 `zensical.toml` 文件进行配置。如果你使用 `zens
 
 目前，所有设置都包含在此作用域内。随着 Zensical 的发展，我们将引入额外的作用域，并在适当的地方将设置移出项目作用域。当然，我们会提供自动重构，因此无需手动迁移。
 
-## ⚠️ 重要：配置顺序规则
+## ⚠️ 重要：配置顺序规则 {#config-order}
 
 在 TOML 配置文件中，**配置顺序非常重要**。必须遵循以下规则：
 
@@ -771,7 +771,7 @@ toggle = { icon = "material/toggle-switch-off-outline", name = "切换至日间�
     nav = [
         { "主页" = "index.md" },
         { "GitHub 仓库" = "https://github.com/zensical/zensical" },
-        { "个人博客" = "https://wcowin.work/" },
+        { "个人博客" = "https://zhangxige.github.io/" },
     ]
     ```
 
@@ -781,7 +781,7 @@ toggle = { icon = "material/toggle-switch-off-outline", name = "切换至日间�
     nav:
       - 主页: index.md
       - GitHub 仓库: https://github.com/zensical/zensical
-      - 个人博客: https://wcowin.work/
+      - 个人博客: https://zhangxige.github.io/
     ```
 
 **实际效果：**
@@ -829,7 +829,7 @@ nav = [
     { "常见问题" = "faq.md" },
     { "案例展示" = "showcase.md" },
     { "关于" = "about.md" },
-    { "个人博客" = "https://wcowin.work/" },
+    { "个人博客" = "https://zhangxige.github.io/" },
 ]
 ```
 
@@ -1107,7 +1107,7 @@ nav = [
         { "博客系统指南" = "tutorials/blog-tutorial.md" },
     ] },
     { "常见问题" = "faq.md" },
-    { "个人博客" = "https://wcowin.work/" },
+    { "个人博客" = "https://zhangxige.github.io/" },
 ]
 
 # ===== 主题配置 =====

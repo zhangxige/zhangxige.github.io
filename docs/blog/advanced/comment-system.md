@@ -2,8 +2,8 @@
 title: 添加评论系统
 date: 2025-01-22
 authors:
-  - name: Wcowin
-    email: wcowin@qq.com
+  - name: zhangxige
+    email: daxuekanshijie@sina.cn
 categories:
   - 高级主题
 ---
@@ -220,7 +220,7 @@ document$.subscribe(function() {
 {% if page.meta.comments %}
   <h2 id="__comments">评论</h2>
   <script src="https://giscus.app/client.js"
-          data-repo="Wcowin/Zensical-Chinese-Tutorial"
+          data-repo="zhangxige/zhangxige.github.io"
           data-repo-id="R_kgDO..."
           data-category="Announcements"
           data-category-id="DIC_kwDO..."

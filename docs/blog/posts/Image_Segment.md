@@ -1,15 +1,15 @@
 ---
 icon: lucide/info
-title: How to write a markdown for python code
+title: 图像分割（草稿）
 date: 2025-12-22
+draft: true
 authors:
-  - name: zhangxige
-    email: daxuekanshijie@sina.cn
+  - zhangxige
 categories:
-  - python
+  - Python
 ---
 
-# Virtural environment
+# 图像分割（草稿）
 
 这是我的第一篇 Zensical 博客文章！
 

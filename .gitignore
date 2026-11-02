@@ -41,8 +41,9 @@ ENV/
 Thumbs.db
 desktop.ini
 
-# mkdocs 特定
+# 构建输出与缓存
 site/
+.cache/
 
 # 测试
 tests/

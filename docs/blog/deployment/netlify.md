@@ -2,8 +2,8 @@
 title: Netlify 部署
 date: 2025-01-22
 authors:
-  - name: Wcowin
-    email: wcowin@qq.com
+  - name: zhangxige
+    email: daxuekanshijie@sina.cn
 categories:
   - 部署指南
 ---
@@ -56,10 +56,10 @@ Netlify 是部署 Zensical 网站的最佳选择：
 | **Publish directory** | `site` |
 
 !!! tip "Python 版本"
-    Netlify 默认使用 Python 3.8。如果需要指定版本，在项目根目录创建 `runtime.txt`：
+    Netlify 默认的 Python 版本可能低于 Zensical 的要求。请在项目根目录创建 `runtime.txt` 指定版本：
     
     ```
-    3.11
+    3.12
     ```
 
 ### 第三步：添加构建配置文件
@@ -68,7 +68,7 @@ Netlify 是部署 Zensical 网站的最佳选择：
 
 ```toml
 [build]
-  command = "pip install zensical && zensical build"
+  command = "pip install -r requirements.txt && zensical build"
   publish = "site"
 
 [[redirects]]
@@ -265,7 +265,7 @@ Netlify 默认启用自动部署。每次推送到主分支时，会自动触发
 
 ```toml
 [build]
-  command = "pip install zensical && zensical build"
+  command = "pip install -r requirements.txt && zensical build"
 ```
 
 ### Python 版本问题
@@ -307,7 +307,7 @@ Netlify 默认启用自动部署。每次推送到主分支时，会自动触发
 
 ```toml
 [build]
-  command = "pip install zensical && zensical build"
+  command = "pip install -r requirements.txt && zensical build"
   publish = "site"
 
 # 404 页面

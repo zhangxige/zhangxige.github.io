@@ -2,8 +2,8 @@
 title: 5 分钟快速开始
 date: 2025-01-22
 authors:
-  - name: Wcowin
-    email: wcowin@qq.com
+  - name: zhangxige
+    email: daxuekanshijie@sina.cn
 categories:
   - 快速开始
 ---
@@ -20,7 +20,7 @@ categories:
 
 ### 检查 Python 版本
 
-Zensical 需要 Python 3.8 或更高版本。首先检查你的 Python 版本：
+Zensical 需要 Python 3.11 或更高版本。首先检查你的 Python 版本：
 
 ```bash
 python3 --version
@@ -31,7 +31,7 @@ python --version
 如果版本低于 3.8，请先升级 Python。
 
 !!! tip "推荐版本"
-    推荐使用 Python 3.9 或更高版本，以获得最佳性能和兼容性。
+    推荐使用 Python 3.12 或更高版本，以获得最佳兼容性。
 
 ### 创建项目目录
 
@@ -94,7 +94,7 @@ Zensical 是用 Rust 和 Python 编写的，以 Python 包的形式发布。**�
     - macOS/Linux: `pip install --user zensical`
     - 或使用 `sudo pip install zensical`（不推荐）
     
-    详细解决方案请参考 [常见问题解答](../faq.md#权限问题)
+    详细解决方案请参考 [常见问题解答](../faq.md)
 
 ### 使用 uv 安装（开发者推荐）
 
@@ -161,7 +161,7 @@ tree -a
     
     ```bash
     # 克隆模板项目
-    git clone https://github.com/Wcowin/Zensical-Chinese-Tutorial.git my-blog
+    git clone https://github.com/zhangxige/zhangxige.github.io.git my-blog
     cd my-blog
     
     # 安装依赖
@@ -228,7 +228,7 @@ language = "zh"       # 界面语言：中文
 !!! warning "配置顺序很重要"
     在 TOML 配置文件中，**必须先配置所有 `[project]` 的键值对，然后才能声明子表**（如 `[project.theme]`）。不能在子表之后回到父表添加配置。
     
-    详细说明请参考 [配置详解](../tutorials/configuration.md#重要配置顺序规则)。
+    详细说明请参考 [配置详解](../tutorials/configuration.md#config-order)。
 
 ### 完整配置示例
 
@@ -270,7 +270,7 @@ zensical serve
 你会看到类似以下的输出：
 
 ```
-Serving /Users/wangkewen/Zensical-Chinese-Tutorial/site on http://localhost:8000
+Serving /path/to/my-blog/site on http://localhost:8000
 Build started
 ```
 
@@ -495,7 +495,7 @@ zensical --version
 
 - 📋 查看 [常见问题解答](../faq.md)
 - 📚 访问 [Zensical 官方文档](https://zensical.org/docs/)
-- 💬 在 [GitHub Issues](https://github.com/Wcowin/Zensical-Chinese-Tutorial/issues) 提问
+- 💬 在 [GitHub Issues](https://github.com/zhangxige/zhangxige.github.io/issues) 提问
 
 ---
 

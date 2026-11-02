@@ -2,8 +2,8 @@
 title: 从 MkDocs 迁移到 Zensical
 date: 2025-01-22
 authors:
-  - name: Wcowin
-    email: wcowin@qq.com
+  - name: zhangxige
+    email: daxuekanshijie@sina.cn
 categories:
   - 迁移指南
 ---
@@ -649,4 +649,4 @@ nav = [
 **需要帮助？**
 - 查看 [常见问题](../faq.md)
 - 访问 [Zensical 官方文档](https://zensical.org/docs/)
-- 加入 [Zensical-Wcowin 社区](https://support.qq.com/products/646913/)
+- 加入 [GitHub Issues](https://github.com/zhangxige/zhangxige.github.io/issues)
